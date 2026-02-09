@@ -49,7 +49,7 @@ export function HeroSection() {
             </div>
 
             <div className="space-y-4">
-              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight text-balance animate-fade-in-up">
+              <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-tight text-balance animate-fade-in-up whitespace-nowrap">
                 Dr. Ekaette Joseph-Isang
               </h1>
               <div className="space-y-2">
@@ -63,9 +63,8 @@ export function HeroSection() {
             </div>
 
             <p className="text-lg lg:text-xl leading-relaxed text-white/90 max-w-2xl animate-fade-in-up animate-delay-300">
-              Healthcare strategy and transformation executive with{" "}
-              <span className="font-semibold text-accent">20+ years</span> in operations and project management. Expert
-              in value-based care, clinical documentation integrity (CDI), risk adjustment, and physician engagement.
+              Healthcare executive and strategic advisor with{" "}
+              <span className="font-semibold text-accent">20+ years</span> of combined experience scaling value-based care, risk adjustment, and population health programs. Expert in aligning clinical strategy, operations, and technology to drive sustainable outcomes, regulatory readiness, and ethical innovation.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 pt-4 animate-fade-in-up animate-delay-400">

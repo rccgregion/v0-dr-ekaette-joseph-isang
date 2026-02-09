@@ -45,43 +45,30 @@ export function AboutSection() {
                 </span>
                 About Me
               </div>
-              <h2 className="text-4xl lg:text-5xl font-bold text-foreground tracking-tight">
+              <h2 className="text-4xl lg:text-5xl font-bold text-foreground tracking-tight whitespace-nowrap">
                 Dr. Ekaette <span className="gradient-text text-chart-3">Joseph-Isang</span>
               </h2>
               <p className="text-xl font-medium text-primary/90">
                 Healthcare Executive
               </p>
               <p className="text-lg text-muted-foreground leading-relaxed text-justify">
-                Healthcare strategy and transformation executive with{" "}
-                <span className="font-semibold text-foreground">20+ years</span> of experience in healthcare operations,
-                project management, and value-based care initiatives. Proven track record of leading transformation
-                programs that improve clinical outcomes, reduce costs, and enhance operational efficiency across
-                healthcare organizations.
+                Healthcare executive and strategic advisor with{" "}
+                <span className="font-semibold text-foreground">20+ years</span> of combined experience scaling value-based care, risk adjustment, and population health programs. Expert in aligning clinical strategy, operations, and technology to drive sustainable outcomes, regulatory readiness, and ethical innovation.
               </p>
             </div>
 
             <div className="space-y-6">
               <h3 className="text-xl font-semibold text-foreground flex items-center gap-2">
-                Achievement Highlights
+                My Expertise
                 <div className="h-px flex-1 bg-gradient-to-r from-border to-transparent" />
               </h3>
-              <div className="grid gap-4">
-                {[
-                  "Led value transformation initiatives for cost-efficient management of Medicare populations",
-                  "Advanced centralized clinical documentation integrity (CDI) for over 100,000 patients",
-                  "Drove successful transformation of coding programs to CDI, doubling code capture and improving accuracy by 40%",
-                  "Designed a new physician fee schedule saving a Blue Cross Blue Shield company $2.3M annually",
-                ].map((item, index) => (
-                  <div
-                    key={index}
-                    className="flex items-start gap-4 group p-3 rounded-lg hover:bg-muted/50 transition-colors duration-300"
-                  >
-                    <div className="mt-1 p-1 bg-primary/10 rounded-full group-hover:bg-primary/20 transition-colors">
-                      <CheckCircle className="h-4 w-4 text-primary" />
-                    </div>
-                    <p className="text-muted-foreground group-hover:text-foreground transition-colors">{item}</p>
-                  </div>
-                ))}
+              <div className="space-y-4">
+                <p className="text-muted-foreground leading-relaxed">
+                  I provide fractional executive leadership and strategic advisory services focused on healthcare financing, cost management, and regulatory compliance within alternative payment and value-based care models. I help payer, provider, and health technology organizations optimize performance across Medicare Advantage, ACOs, and population health programs by aligning clinical strategy, operations, analytics, and governance to support sustainable financial and quality outcomes.
+                </p>
+                <p className="text-muted-foreground leading-relaxed">
+                  I specialize in audit readiness and compliance management, designing documentation integrity, regulatory governance, and monitoring frameworks that support CMS, RADV, and NCQA requirements. I continuously track and analyze policy and regulatory changes, assess operational and financial impact, and deliver clear reporting and guidance to executive leadership. This proactive approach ensures organizations remain compliant, audit-ready, and strategically positioned as payment models, regulations, and healthcare financing policies continue to evolve.
+                </p>
               </div>
             </div>
 

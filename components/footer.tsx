@@ -50,7 +50,7 @@ export function Footer() {
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-6">
           {/* Company Info */}
           <div className="space-y-3">
-            <div className="text-2xl font-semibold">
+            <div className="text-2xl font-semibold whitespace-nowrap">
               Dr.<span className="font-medium text-background"> Ekaette Joseph-Isang</span>
             </div>
             <div className="space-y-2 text-sm">
@@ -203,7 +203,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="border-t border-secondary-foreground/20 mt-4 pt-3">
           <div className="flex flex-col md:flex-row justify-between items-center gap-2">
-            <div className="text-sm text-secondary-foreground/60">
+            <div className="text-sm text-secondary-foreground/60 whitespace-nowrap">
               © 2026 Dr. Ekaette Joseph-Isang. All rights reserved.
             </div>
             <div className="flex items-center gap-6 text-sm">

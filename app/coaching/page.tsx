@@ -183,27 +183,39 @@ export default function CoachingPage() {
                 },
                 {
                   step: "2",
-                  title: "Assessment & Goal Setting",
+                  title: "Analysis",
                   description:
-                    "Comprehensive evaluation of your communication patterns, triggers, and relationship dynamics to create a personalized coaching plan.",
+                    "Comprehensive evaluation of your work experience",
                 },
                 {
                   step: "3",
-                  title: "R.E.M.A.P Integration",
+                  title: "Clarity",
                   description:
-                    "Learn and practice the R.E.M.A.P framework tailored to your specific situations and communication challenges.",
+                    "Matching you to best fit roles",
                 },
                 {
                   step: "4",
-                  title: "Skill Development",
+                  title: "Transformation",
                   description:
-                    "Build new communication skills through guided practice, role-playing, and real-world application with ongoing support.",
+                    "Customized training tailored to help you reinvent yourself in 90 days",
                 },
                 {
                   step: "5",
-                  title: "Integration & Mastery",
+                  title: "Integration",
                   description:
-                    "Solidify your new communication patterns and develop strategies for maintaining progress long-term.",
+                    "Bring the results of your analysis, clarity, transformation training into defining a brand new you",
+                },
+                {
+                  step: "6",
+                  title: "Ownership",
+                  description:
+                    "We teach you how to tell your story and stand out from the crowd",
+                },
+                {
+                  step: "7",
+                  title: "Niching",
+                  description:
+                    "Many people stay shallow and at surface level. We show you how to drill down and execute like an expert",
                 },
               ].map((item, index) => (
                 <div key={index} className="flex items-start gap-6">
